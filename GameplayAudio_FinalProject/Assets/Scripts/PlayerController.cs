@@ -32,6 +32,7 @@ public class PlayerController : MonoBehaviour
     private Vector2 mousePos;
     private Vector2 moveDirection;
     private float vertRotation;
+    private bool isDropkicking = false;
 
     private void LookControls()
     {
@@ -107,6 +108,8 @@ public class PlayerController : MonoBehaviour
 
     private IEnumerator DropKick()
     {
+        RaycastHit hit;
+
         Debug.Log("Dropkick is running");
         if (characterController.isGrounded)
         {
@@ -117,11 +120,27 @@ public class PlayerController : MonoBehaviour
 
         yield return new WaitForSeconds(0.2f);
 
-        if(Physics.Raycast(mainCamera.transform.position, mainCamera.transform.forward, kickRange))
+        if(Physics.Raycast(mainCamera.transform.position, mainCamera.transform.forward, out hit, kickRange))
         {
             Debug.Log("Raycast hit something");
-            characterController.Move(-mainCamera.transform.forward * Time.deltaTime * kickStrength);
+
+            //Could probably be adapted into switch case statement if more materials were added so that it's not just a bunch of if statements
+            if(hit.collider.CompareTag("Wood"))
+            {
+                AkUnitySoundEngine.PostEvent("Wood_Hit_Event", gameObject);
+            }
+            else if (hit.collider.CompareTag("Metal"))
+            {
+                AkUnitySoundEngine.PostEvent("Metal_Hit_Event", gameObject);
+            }
+                characterController.Move(-mainCamera.transform.forward * Time.deltaTime * kickStrength);
+
+            //This is here since i had the issue of it playing multiple at once, i believe this fixes it so :shrug: (imagine a shrugging emoji)
+            yield return new WaitForSeconds(1f);
+            AkUnitySoundEngine.StopAll(gameObject);
         }
+
+        isDropkicking = false;
     }
 
     //yappa doo
@@ -152,9 +171,10 @@ public class PlayerController : MonoBehaviour
             Gravity();
         }
 
-        if (dropkick.action.IsPressed())
+        if (dropkick.action.IsPressed() && isDropkicking == false)
         {
             StartCoroutine(DropKick());
+            isDropkicking = true;
         }
     }
 }

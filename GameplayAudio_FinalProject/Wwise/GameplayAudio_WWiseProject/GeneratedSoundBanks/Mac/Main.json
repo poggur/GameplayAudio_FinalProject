@@ -1,0 +1,113 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{2D571847-4A34-4246-9CB3-53EB503EBD88}",
+    "Language": "SFX",
+    "Hash": "{592496A2-D6FA-176F-6F54-09085E46B98F}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "82717297",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wood_Hit1.wav",
+      "CachePath": "F3/{F37BFF27-13E7-C25F-C9DD-BD5C2D58AC22}.wem"
+     },
+     {
+      "Id": "229982861",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Metal_Hit2.wav",
+      "CachePath": "AC/{AC5F0332-9C4C-C0EF-5820-CA3F037C3B5D}.wem"
+     },
+     {
+      "Id": "506659083",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wood_Hit3.wav",
+      "CachePath": "73/{7382D905-C8EE-C692-DDBC-16491DB542E1}.wem"
+     },
+     {
+      "Id": "506997418",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wood_Hit2.wav",
+      "CachePath": "1A/{1A826C99-7179-C370-F1EF-54E333B6F7B1}.wem"
+     },
+     {
+      "Id": "724405725",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Metal_Hit1.wav",
+      "CachePath": "89/{89C876CB-981B-F7C2-1DD8-07CAF15B7511}.wem"
+     },
+     {
+      "Id": "1009654449",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Metal_Hit3.wav",
+      "CachePath": "82/{822D2103-04F7-F8F0-17D6-548984C78F52}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3072228157",
+      "Name": "Metal_Hit_Event",
+      "ObjectPath": "\\Events\\Default Work Unit\\Metal_Hit_Event",
+      "GUID": "{59C35022-EAED-4E97-AC22-3E476CEF5D56}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.7471882",
+      "DurationMax": "0.7471882",
+      "MediaRefs": [
+       {
+        "Id": "229982861"
+       },
+       {
+        "Id": "724405725"
+       },
+       {
+        "Id": "1009654449"
+       }
+      ]
+     },
+     {
+      "Id": "2756764793",
+      "Name": "Wood_Hit_Event",
+      "ObjectPath": "\\Events\\Default Work Unit\\Wood_Hit_Event",
+      "GUID": "{7AAFDB65-0999-4E72-8275-728E3B16A993}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.67129254",
+      "DurationMax": "0.67129254",
+      "MediaRefs": [
+       {
+        "Id": "82717297"
+       },
+       {
+        "Id": "506659083"
+       },
+       {
+        "Id": "506997418"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{F82CB7FF-BE32-230F-2201-D278290C1724}"
+ }
+}

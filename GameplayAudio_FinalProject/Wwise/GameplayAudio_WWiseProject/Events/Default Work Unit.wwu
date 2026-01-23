@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{05BE2AA0-00BA-4AE7-B73E-0066B6497EFB}" SchemaVersion="133">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{05BE2AA0-00BA-4AE7-B73E-0066B6497EFB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Metal_Hit_Event" ID="{59C35022-EAED-4E97-AC22-3E476CEF5D56}">
+					<ChildrenList>
+						<Action Name="" ID="{BB3CC5F3-CD77-4AF0-BEA7-B30DCB220555}" ShortID="172925231">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Metal Hit" ID="{BDEB7FAC-30CA-41C8-A535-8D834D75BF37}" WorkUnitID="{E580FDB0-29D7-4B11-9226-FD9243B1FD8B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Wood_Hit_Event" ID="{7AAFDB65-0999-4E72-8275-728E3B16A993}">
+					<ChildrenList>
+						<Action Name="" ID="{8B3C1F7C-FD9C-4254-8B12-B64E074E154C}" ShortID="171483093">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wood Hit" ID="{BBAF0C13-E4BD-4B60-A9C9-3059C7880499}" WorkUnitID="{E580FDB0-29D7-4B11-9226-FD9243B1FD8B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

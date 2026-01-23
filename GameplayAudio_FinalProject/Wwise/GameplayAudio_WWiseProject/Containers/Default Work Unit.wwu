@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E580FDB0-29D7-4B11-9226-FD9243B1FD8B}" SchemaVersion="133">
+	<Containers>
+		<WorkUnit Name="Default Work Unit" ID="{E580FDB0-29D7-4B11-9226-FD9243B1FD8B}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Wood Hit" ID="{BBAF0C13-E4BD-4B60-A9C9-3059C7880499}" ShortID="393031773">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2DFAC7D7-CB55-4574-9756-B432E4C0BE62}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C1F3F542-BDAB-4A32-9BC8-66B90B887768}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Wood_Hit1" ID="{7311912A-44F2-4744-BDAB-6D501AE474E7}" ShortID="423265106">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2DFAC7D7-CB55-4574-9756-B432E4C0BE62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C1F3F542-BDAB-4A32-9BC8-66B90B887768}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wood_Hit1" ID="{A4D52FD8-97F4-4CAF-874A-B7EBB2CFA9AF}">
+									<Language>SFX</Language>
+									<AudioFile>Wood_Hit1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="82717297"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wood_Hit1" ID="{A4D52FD8-97F4-4CAF-874A-B7EBB2CFA9AF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Wood_Hit2" ID="{62D2E164-2BDA-4594-AF2F-1089F8B9A3DC}" ShortID="682516345">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2DFAC7D7-CB55-4574-9756-B432E4C0BE62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C1F3F542-BDAB-4A32-9BC8-66B90B887768}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wood_Hit2" ID="{550AE14E-CE0E-4213-BD1E-2D80A0FE1141}">
+									<Language>SFX</Language>
+									<AudioFile>Wood_Hit2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="506997418"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wood_Hit2" ID="{550AE14E-CE0E-4213-BD1E-2D80A0FE1141}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Wood_Hit3" ID="{BF28A36D-DA62-4598-9C5F-494BC2E242C5}" ShortID="1069451886">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2DFAC7D7-CB55-4574-9756-B432E4C0BE62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C1F3F542-BDAB-4A32-9BC8-66B90B887768}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wood_Hit3" ID="{3E3CCB72-9C03-47FA-881C-E92EE3983F72}">
+									<Language>SFX</Language>
+									<AudioFile>Wood_Hit3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="506659083"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wood_Hit3" ID="{3E3CCB72-9C03-47FA-881C-E92EE3983F72}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Metal Hit" ID="{BDEB7FAC-30CA-41C8-A535-8D834D75BF37}" ShortID="881180640">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2DFAC7D7-CB55-4574-9756-B432E4C0BE62}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C1F3F542-BDAB-4A32-9BC8-66B90B887768}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Metal_Hit1" ID="{E5488621-FAD8-4B2B-9919-D9A9961F54C0}" ShortID="161693500">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2DFAC7D7-CB55-4574-9756-B432E4C0BE62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C1F3F542-BDAB-4A32-9BC8-66B90B887768}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Metal_Hit1" ID="{504BD461-CC9A-42CD-877B-28D21565790A}">
+									<Language>SFX</Language>
+									<AudioFile>Metal_Hit1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="724405725"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Metal_Hit1" ID="{504BD461-CC9A-42CD-877B-28D21565790A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Metal_Hit2" ID="{D0BD577C-B9D5-4F04-B78C-B4D2ECD64263}" ShortID="276007368">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2DFAC7D7-CB55-4574-9756-B432E4C0BE62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C1F3F542-BDAB-4A32-9BC8-66B90B887768}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Metal_Hit2" ID="{5E6392D0-27B4-4A0E-AD67-FA439A13C0B1}">
+									<Language>SFX</Language>
+									<AudioFile>Metal_Hit2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="229982861"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Metal_Hit2" ID="{5E6392D0-27B4-4A0E-AD67-FA439A13C0B1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Metal_Hit3" ID="{7478C0E5-BFD1-4649-9DED-B0645E65C17D}" ShortID="306540333">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2DFAC7D7-CB55-4574-9756-B432E4C0BE62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C1F3F542-BDAB-4A32-9BC8-66B90B887768}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Metal_Hit3" ID="{46C55CD6-02A3-4645-93EC-EABC3040E56A}">
+									<Language>SFX</Language>
+									<AudioFile>Metal_Hit3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1009654449"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Metal_Hit3" ID="{46C55CD6-02A3-4645-93EC-EABC3040E56A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>
