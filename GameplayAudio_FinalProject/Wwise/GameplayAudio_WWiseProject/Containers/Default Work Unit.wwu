@@ -201,6 +201,391 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<SwitchContainer Name="Biome_Music" ID="{2AD6A0A2-B6BD-4330-84A3-43E2A07A4629}" ShortID="21350335">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2DFAC7D7-CB55-4574-9756-B432E4C0BE62}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Biome1" ID="{58096B69-C5B4-4008-903D-E2BB0BDC48A0}" WorkUnitID="{AA19D4C9-AA95-465F-9579-DB61A1373F0D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C1F3F542-BDAB-4A32-9BC8-66B90B887768}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Biomes" ID="{2D3CA6D8-C955-4047-AFE9-9E866DF10577}" WorkUnitID="{AA19D4C9-AA95-465F-9579-DB61A1373F0D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Biome1_Music" ID="{4825EBFA-D54D-420B-A4DB-D3DA4996C423}" ShortID="172561362">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2DFAC7D7-CB55-4574-9756-B432E4C0BE62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C1F3F542-BDAB-4A32-9BC8-66B90B887768}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Brass_AudioFinal" ID="{DB7A6CBC-D40D-46AB-9FD8-1E027D5B41A4}" ShortID="905904988">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2DFAC7D7-CB55-4574-9756-B432E4C0BE62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C1F3F542-BDAB-4A32-9BC8-66B90B887768}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Brass_AudioFinal" ID="{29AF4D7F-62B0-4836-84D3-5FF06F95D292}">
+											<Language>SFX</Language>
+											<AudioFile>Brass_AudioFinal.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="903323766"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Brass_AudioFinal" ID="{29AF4D7F-62B0-4836-84D3-5FF06F95D292}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Keys_AudioFinal" ID="{2DD8CE14-7F07-4F43-9E75-25D337D1E0DF}" ShortID="701971204">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2DFAC7D7-CB55-4574-9756-B432E4C0BE62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C1F3F542-BDAB-4A32-9BC8-66B90B887768}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Keys_AudioFinal" ID="{1D0A80D7-DCFB-4ABD-84C6-25FE01B18CAD}">
+											<Language>SFX</Language>
+											<AudioFile>Keys_AudioFinal.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="12782359"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Keys_AudioFinal" ID="{1D0A80D7-DCFB-4ABD-84C6-25FE01B18CAD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Organ_AudioFinal" ID="{B3BBECE5-B0B2-4B1D-8441-C16BC73F4575}" ShortID="922185262">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2DFAC7D7-CB55-4574-9756-B432E4C0BE62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C1F3F542-BDAB-4A32-9BC8-66B90B887768}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Organ_AudioFinal" ID="{BE685FDA-8B9A-412B-BC07-33CFB4F1BD60}">
+											<Language>SFX</Language>
+											<AudioFile>Organ_AudioFinal.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="920676867"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Organ_AudioFinal" ID="{BE685FDA-8B9A-412B-BC07-33CFB4F1BD60}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Pad_AudioFinal" ID="{9A47ED99-E805-45EF-881D-6AEF695CEB39}" ShortID="751076919">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2DFAC7D7-CB55-4574-9756-B432E4C0BE62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C1F3F542-BDAB-4A32-9BC8-66B90B887768}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Pad_AudioFinal" ID="{BE84F004-2DCE-4E53-A8BF-0CE50D2A73F0}">
+											<Language>SFX</Language>
+											<AudioFile>Pad_AudioFinal.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="308189425"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Pad_AudioFinal" ID="{BE84F004-2DCE-4E53-A8BF-0CE50D2A73F0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Strings_AudioFinal" ID="{9E5F83EA-213F-44C0-8352-91D5896E9B54}" ShortID="199524144">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2DFAC7D7-CB55-4574-9756-B432E4C0BE62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C1F3F542-BDAB-4A32-9BC8-66B90B887768}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Strings_AudioFinal" ID="{A74B4548-81A9-45C9-BF5F-1FE8E18DBF92}">
+											<Language>SFX</Language>
+											<AudioFile>Strings_AudioFinal.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="878477854"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Strings_AudioFinal" ID="{A74B4548-81A9-45C9-BF5F-1FE8E18DBF92}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Biome1_Track_AudioFinal" ID="{35C135D0-0BDB-42BD-BA09-325634CCCA53}" ShortID="608463320">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2DFAC7D7-CB55-4574-9756-B432E4C0BE62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C1F3F542-BDAB-4A32-9BC8-66B90B887768}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Biome1_Track_AudioFinal" ID="{9403DFA7-EF65-45F2-A11C-346B8E3BE3AB}">
+											<Language>SFX</Language>
+											<AudioFile>Biome1_Track_AudioFinal.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="991770666"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Biome1_Track_AudioFinal" ID="{9403DFA7-EF65-45F2-A11C-346B8E3BE3AB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<PluginInnerObject Name="" ID="{0BC14B5B-14E3-4C22-B789-2C4E460D6846}" PluginName="PlaylistSlot" CompanyID="0" PluginID="86">
+										<ReferenceList>
+											<Reference Name="PlaylistObject">
+												<ObjectRef Name="Pad_AudioFinal" ID="{9A47ED99-E805-45EF-881D-6AEF695CEB39}" WorkUnitID="{E580FDB0-29D7-4B11-9226-FD9243B1FD8B}"/>
+											</Reference>
+										</ReferenceList>
+									</PluginInnerObject>
+									<PluginInnerObject Name="" ID="{DFCAF196-995A-443C-9FA1-AF72C5E6CCC9}" PluginName="PlaylistSlot" CompanyID="0" PluginID="86">
+										<ReferenceList>
+											<Reference Name="PlaylistObject">
+												<ObjectRef Name="Keys_AudioFinal" ID="{2DD8CE14-7F07-4F43-9E75-25D337D1E0DF}" WorkUnitID="{E580FDB0-29D7-4B11-9226-FD9243B1FD8B}"/>
+											</Reference>
+										</ReferenceList>
+									</PluginInnerObject>
+									<PluginInnerObject Name="" ID="{35E0E9BF-75F6-4903-A162-1C2F804330D1}" PluginName="PlaylistSlot" CompanyID="0" PluginID="86">
+										<ReferenceList>
+											<Reference Name="PlaylistObject">
+												<ObjectRef Name="Organ_AudioFinal" ID="{B3BBECE5-B0B2-4B1D-8441-C16BC73F4575}" WorkUnitID="{E580FDB0-29D7-4B11-9226-FD9243B1FD8B}"/>
+											</Reference>
+										</ReferenceList>
+									</PluginInnerObject>
+									<PluginInnerObject Name="" ID="{D62C4A3D-E6D8-4DC0-BD12-4482D9F5955D}" PluginName="PlaylistSlot" CompanyID="0" PluginID="86">
+										<ReferenceList>
+											<Reference Name="PlaylistObject">
+												<ObjectRef Name="Strings_AudioFinal" ID="{9E5F83EA-213F-44C0-8352-91D5896E9B54}" WorkUnitID="{E580FDB0-29D7-4B11-9226-FD9243B1FD8B}"/>
+											</Reference>
+										</ReferenceList>
+									</PluginInnerObject>
+									<PluginInnerObject Name="" ID="{21A8709E-CF7A-4F37-8084-F2C905592A9D}" PluginName="PlaylistSlot" CompanyID="0" PluginID="86">
+										<ReferenceList>
+											<Reference Name="PlaylistObject">
+												<ObjectRef Name="Brass_AudioFinal" ID="{DB7A6CBC-D40D-46AB-9FD8-1E027D5B41A4}" WorkUnitID="{E580FDB0-29D7-4B11-9226-FD9243B1FD8B}"/>
+											</Reference>
+										</ReferenceList>
+									</PluginInnerObject>
+									<PluginInnerObject Name="" ID="{E447BAA8-809D-4183-9A44-9A59FDB8E5DF}" PluginName="PlaylistSlot" CompanyID="0" PluginID="86">
+										<ReferenceList>
+											<Reference Name="PlaylistObject">
+												<ObjectRef Name="Biome1_Track_AudioFinal" ID="{35C135D0-0BDB-42BD-BA09-325634CCCA53}" WorkUnitID="{E580FDB0-29D7-4B11-9226-FD9243B1FD8B}"/>
+											</Reference>
+										</ReferenceList>
+									</PluginInnerObject>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Biome2_Music" ID="{F537AC39-593A-485D-852F-F59B57E4621E}" ShortID="8475186">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2DFAC7D7-CB55-4574-9756-B432E4C0BE62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C1F3F542-BDAB-4A32-9BC8-66B90B887768}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Biome1_Track_AudioFinal" ID="{4560FF6F-B377-4080-8818-FC5A9EA6EEA3}" ShortID="993423569">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2DFAC7D7-CB55-4574-9756-B432E4C0BE62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C1F3F542-BDAB-4A32-9BC8-66B90B887768}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Biome1_Track_AudioFinal" ID="{ABE55725-9795-457F-8E0B-8D2646F52487}">
+											<Language>SFX</Language>
+											<AudioFile>Biome1_Track_AudioFinal.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="991770666"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Biome1_Track_AudioFinal" ID="{ABE55725-9795-457F-8E0B-8D2646F52487}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Brass_AudioFinal" ID="{B758ECF2-BE29-4C4C-8291-7121BB2E6FFB}" ShortID="701053496">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2DFAC7D7-CB55-4574-9756-B432E4C0BE62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C1F3F542-BDAB-4A32-9BC8-66B90B887768}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Brass_AudioFinal" ID="{D29C2725-DFF2-4FCD-96D6-053294DFA8F8}">
+											<Language>SFX</Language>
+											<AudioFile>Brass_AudioFinal.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="903323766"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Brass_AudioFinal" ID="{D29C2725-DFF2-4FCD-96D6-053294DFA8F8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Keys_AudioFinal" ID="{1A8FE7C9-9DA6-4A60-BDE7-50B153F964CA}" ShortID="934009876">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2DFAC7D7-CB55-4574-9756-B432E4C0BE62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C1F3F542-BDAB-4A32-9BC8-66B90B887768}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Keys_AudioFinal" ID="{35C9F523-6A20-45B2-8C08-AC0941411B7F}">
+											<Language>SFX</Language>
+											<AudioFile>Keys_AudioFinal.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="12782359"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Keys_AudioFinal" ID="{35C9F523-6A20-45B2-8C08-AC0941411B7F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Organ_AudioFinal" ID="{4A6A894D-1417-4DB7-85AB-43D33C71D759}" ShortID="147736362">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2DFAC7D7-CB55-4574-9756-B432E4C0BE62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C1F3F542-BDAB-4A32-9BC8-66B90B887768}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Organ_AudioFinal" ID="{E5D9692F-CE4B-4EBB-8706-CE3A6BF43E95}">
+											<Language>SFX</Language>
+											<AudioFile>Organ_AudioFinal.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="920676867"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Organ_AudioFinal" ID="{E5D9692F-CE4B-4EBB-8706-CE3A6BF43E95}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Pad_AudioFinal" ID="{0C0C7BAE-3E14-4B4F-9A68-CD927A7B6B03}" ShortID="1019604657">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2DFAC7D7-CB55-4574-9756-B432E4C0BE62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C1F3F542-BDAB-4A32-9BC8-66B90B887768}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Pad_AudioFinal" ID="{0E4E2FB8-20C4-4E0B-AF6F-CEE1E4F88CB0}">
+											<Language>SFX</Language>
+											<AudioFile>Pad_AudioFinal.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="308189425"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Pad_AudioFinal" ID="{0E4E2FB8-20C4-4E0B-AF6F-CEE1E4F88CB0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Strings_AudioFinal" ID="{A0EED204-00C7-40E1-A87E-332F548C876E}" ShortID="980758549">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2DFAC7D7-CB55-4574-9756-B432E4C0BE62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C1F3F542-BDAB-4A32-9BC8-66B90B887768}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Strings_AudioFinal" ID="{7111518C-A88E-4C1D-9D71-C3CE0B68C363}">
+											<Language>SFX</Language>
+											<AudioFile>Strings_AudioFinal.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="878477854"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Strings_AudioFinal" ID="{7111518C-A88E-4C1D-9D71-C3CE0B68C363}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Biome2_Music" ID="{F537AC39-593A-485D-852F-F59B57E4621E}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Biome1_Music" ID="{4825EBFA-D54D-420B-A4DB-D3DA4996C423}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Biome2" ID="{07ECBE10-6D9B-4933-BFAB-CC8B2A06D838}"/>
+								<ItemList>
+									<ItemRef Name="Biome2_Music" ID="{F537AC39-593A-485D-852F-F59B57E4621E}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Biome1" ID="{58096B69-C5B4-4008-903D-E2BB0BDC48A0}"/>
+								<ItemList>
+									<ItemRef Name="Biome1_Music" ID="{4825EBFA-D54D-420B-A4DB-D3DA4996C423}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</Containers>

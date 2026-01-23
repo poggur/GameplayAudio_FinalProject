@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{2D571847-4A34-4246-9CB3-53EB503EBD88}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Biome_Swap" ID="{A29629C2-9611-490A-A539-666CAAAA6C18}" WorkUnitID="{05BE2AA0-00BA-4AE7-B73E-0066B6497EFB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Wood_Hit_Event" ID="{7AAFDB65-0999-4E72-8275-728E3B16A993}" WorkUnitID="{05BE2AA0-00BA-4AE7-B73E-0066B6497EFB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Metal_Hit_Event" ID="{59C35022-EAED-4E97-AC22-3E476CEF5D56}" WorkUnitID="{05BE2AA0-00BA-4AE7-B73E-0066B6497EFB}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

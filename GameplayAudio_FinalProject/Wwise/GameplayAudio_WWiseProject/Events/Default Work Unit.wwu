@@ -25,6 +25,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Biome_Swap" ID="{A29629C2-9611-490A-A539-666CAAAA6C18}">
+					<ChildrenList>
+						<Action Name="" ID="{F309BD28-2584-430F-97BD-B3F90A8108DC}" ShortID="529305080">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Biome_Music" ID="{2AD6A0A2-B6BD-4330-84A3-43E2A07A4629}" WorkUnitID="{E580FDB0-29D7-4B11-9226-FD9243B1FD8B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

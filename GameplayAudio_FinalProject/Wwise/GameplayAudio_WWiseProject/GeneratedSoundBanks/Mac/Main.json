@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{2D571847-4A34-4246-9CB3-53EB503EBD88}",
     "Language": "SFX",
-    "Hash": "{592496A2-D6FA-176F-6F54-09085E46B98F}",
+    "Hash": "{D0CB15D2-B644-FAA7-358E-EF3077777FE7}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
+     {
+      "Id": "12782359",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Keys_AudioFinal.wav",
+      "CachePath": "9F/{9F3405DA-52EA-5915-6945-3539B30A9EDA}.wem"
+     },
      {
       "Id": "82717297",
       "Language": "SFX",
@@ -30,6 +38,14 @@
       "Location": "Memory",
       "ShortName": "Metal_Hit2.wav",
       "CachePath": "AC/{AC5F0332-9C4C-C0EF-5820-CA3F037C3B5D}.wem"
+     },
+     {
+      "Id": "308189425",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pad_AudioFinal.wav",
+      "CachePath": "BA/{BA37124E-D4AA-796C-80A1-79FC52796F88}.wem"
      },
      {
       "Id": "506659083",
@@ -56,6 +72,38 @@
       "CachePath": "89/{89C876CB-981B-F7C2-1DD8-07CAF15B7511}.wem"
      },
      {
+      "Id": "878477854",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Strings_AudioFinal.wav",
+      "CachePath": "FB/{FB7F75E5-9A56-7071-4FCD-4FFEE45E62E6}.wem"
+     },
+     {
+      "Id": "903323766",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Brass_AudioFinal.wav",
+      "CachePath": "64/{64B6A861-900B-BFF2-158C-8342DDFF520E}.wem"
+     },
+     {
+      "Id": "920676867",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Organ_AudioFinal.wav",
+      "CachePath": "72/{72FEF45E-BE41-3378-6333-0EED85DD2DBF}.wem"
+     },
+     {
+      "Id": "991770666",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Biome1_Track_AudioFinal.wav",
+      "CachePath": "78/{78091867-D7C9-3B28-25D1-6F80C4C9D2FF}.wem"
+     },
+     {
       "Id": "1009654449",
       "Language": "SFX",
       "Streaming": "false",
@@ -65,6 +113,72 @@
      }
     ],
     "Events": [
+     {
+      "Id": "2988425367",
+      "Name": "Biome_Swap",
+      "ObjectPath": "\\Events\\Default Work Unit\\Biome_Swap",
+      "GUID": "{A29629C2-9611-490A-A539-666CAAAA6C18}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "975021402",
+         "Id": "975021339",
+         "GUID": "{07ECBE10-6D9B-4933-BFAB-CC8B2A06D838}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "12782359"
+         },
+         {
+          "Id": "308189425"
+         },
+         {
+          "Id": "878477854"
+         },
+         {
+          "Id": "903323766"
+         },
+         {
+          "Id": "920676867"
+         },
+         {
+          "Id": "991770666"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "975021402",
+         "Id": "975021336",
+         "GUID": "{58096B69-C5B4-4008-903D-E2BB0BDC48A0}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "12782359"
+         },
+         {
+          "Id": "308189425"
+         },
+         {
+          "Id": "878477854"
+         },
+         {
+          "Id": "903323766"
+         },
+         {
+          "Id": "920676867"
+         },
+         {
+          "Id": "991770666"
+         }
+        ]
+       }
+      ]
+     },
      {
       "Id": "3072228157",
       "Name": "Metal_Hit_Event",
@@ -105,9 +219,31 @@
        }
       ]
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "975021402",
+      "Name": "Biomes",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Biomes",
+      "GUID": "{2D3CA6D8-C955-4047-AFE9-9E866DF10577}",
+      "Switches": [
+       {
+        "Id": "975021336",
+        "Name": "Biome1",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Biomes\\Biome1",
+        "GUID": "{58096B69-C5B4-4008-903D-E2BB0BDC48A0}"
+       },
+       {
+        "Id": "975021339",
+        "Name": "Biome2",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Biomes\\Biome2",
+        "GUID": "{07ECBE10-6D9B-4933-BFAB-CC8B2A06D838}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{F82CB7FF-BE32-230F-2201-D278290C1724}"
+  "FileHash": "{888944AA-428A-4957-2E5C-38908DAD58C3}"
  }
 }

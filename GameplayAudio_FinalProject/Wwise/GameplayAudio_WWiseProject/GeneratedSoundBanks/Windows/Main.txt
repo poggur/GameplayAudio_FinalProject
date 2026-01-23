@@ -1,12 +1,26 @@
 Event	ID	Name			Wwise Object Path	Notes
 	2756764793	Wood_Hit_Event			\Default Work Unit\Wood_Hit_Event	
+	2988425367	Biome_Swap			\Default Work Unit\Biome_Swap	
 	3072228157	Metal_Hit_Event			\Default Work Unit\Metal_Hit_Event	
 
+Switch Group	ID	Name			Wwise Object Path	Notes
+	975021402	Biomes			\Default Work Unit\Biomes	
+
+Switch	ID	Name	Switch Group			Notes
+	975021336	Biome1	Biomes			
+	975021339	Biome2	Biomes			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	12782359	Keys_AudioFinal	.cache\9F\{9F3405DA-52EA-5915-6945-3539B30A9EDA}.wem		\Containers\Default Work Unit\Biome_Music\Biome2_Music\Keys_AudioFinal		1764096
 	82717297	Wood_Hit1	.cache\F3\{F37BFF27-13E7-C25F-C9DD-BD5C2D58AC22}.wem		\Containers\Default Work Unit\Wood Hit\Wood_Hit1		118512
 	229982861	Metal_Hit2	.cache\AC\{AC5F0332-9C4C-C0EF-5820-CA3F037C3B5D}.wem		\Containers\Default Work Unit\Metal Hit\Metal_Hit2		131900
+	308189425	Pad_AudioFinal	.cache\BA\{BA37124E-D4AA-796C-80A1-79FC52796F88}.wem		\Containers\Default Work Unit\Biome_Music\Biome2_Music\Pad_AudioFinal		1764096
 	506659083	Wood_Hit3	.cache\73\{7382D905-C8EE-C692-DDBC-16491DB542E1}.wem		\Containers\Default Work Unit\Wood Hit\Wood_Hit3		118512
 	506997418	Wood_Hit2	.cache\1A\{1A826C99-7179-C370-F1EF-54E333B6F7B1}.wem		\Containers\Default Work Unit\Wood Hit\Wood_Hit2		118512
 	724405725	Metal_Hit1	.cache\89\{89C876CB-981B-F7C2-1DD8-07CAF15B7511}.wem		\Containers\Default Work Unit\Metal Hit\Metal_Hit1		131900
+	878477854	Strings_AudioFinal	.cache\FB\{FB7F75E5-9A56-7071-4FCD-4FFEE45E62E6}.wem		\Containers\Default Work Unit\Biome_Music\Biome1_Music\Strings_AudioFinal		1764096
+	903323766	Brass_AudioFinal	.cache\64\{64B6A861-900B-BFF2-158C-8342DDFF520E}.wem		\Containers\Default Work Unit\Biome_Music\Biome1_Music\Brass_AudioFinal		1764096
+	920676867	Organ_AudioFinal	.cache\72\{72FEF45E-BE41-3378-6333-0EED85DD2DBF}.wem		\Containers\Default Work Unit\Biome_Music\Biome1_Music\Organ_AudioFinal		1764096
+	991770666	Biome1_Track_AudioFinal	.cache\78\{78091867-D7C9-3B28-25D1-6F80C4C9D2FF}.wem		\Containers\Default Work Unit\Biome_Music\Biome2_Music\Biome1_Track_AudioFinal		1764096
 	1009654449	Metal_Hit3	.cache\82\{822D2103-04F7-F8F0-17D6-548984C78F52}.wem		\Containers\Default Work Unit\Metal Hit\Metal_Hit3		131900
 

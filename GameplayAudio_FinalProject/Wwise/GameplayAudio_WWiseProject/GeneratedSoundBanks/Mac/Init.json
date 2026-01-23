@@ -104,6 +104,28 @@
       "GUID": "{EDA87B19-73AA-40A0-9F19-2073606DB710}"
      }
     ],
+    "SwitchGroups": [
+     {
+      "Id": "975021402",
+      "Name": "Biomes",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Biomes",
+      "GUID": "{2D3CA6D8-C955-4047-AFE9-9E866DF10577}",
+      "Switches": [
+       {
+        "Id": "975021336",
+        "Name": "Biome1",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Biomes\\Biome1",
+        "GUID": "{58096B69-C5B4-4008-903D-E2BB0BDC48A0}"
+       },
+       {
+        "Id": "975021339",
+        "Name": "Biome2",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Biomes\\Biome2",
+        "GUID": "{07ECBE10-6D9B-4933-BFAB-CC8B2A06D838}"
+       }
+      ]
+     }
+    ],
     "AcousticTextures": [
      {
       "Id": "504532776",
@@ -583,6 +605,6 @@
     ]
    }
   ],
-  "FileHash": "{2D891ECE-B6E5-B745-73B0-CE48BAAD5072}"
+  "FileHash": "{C4239DAB-E1B1-20EC-EF21-79508BFBBD5E}"
  }
 }

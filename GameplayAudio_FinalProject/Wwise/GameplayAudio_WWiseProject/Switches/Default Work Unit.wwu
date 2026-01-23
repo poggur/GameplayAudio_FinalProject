@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{AA19D4C9-AA95-465F-9579-DB61A1373F0D}" SchemaVersion="133">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{AA19D4C9-AA95-465F-9579-DB61A1373F0D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{AA19D4C9-AA95-465F-9579-DB61A1373F0D}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Biomes" ID="{2D3CA6D8-C955-4047-AFE9-9E866DF10577}">
+					<ChildrenList>
+						<Switch Name="Biome1" ID="{58096B69-C5B4-4008-903D-E2BB0BDC48A0}"/>
+						<Switch Name="Biome2" ID="{07ECBE10-6D9B-4933-BFAB-CC8B2A06D838}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>
